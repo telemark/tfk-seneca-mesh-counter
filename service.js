@@ -11,6 +11,8 @@ const options = {
   },
   mesh: {
     auto: true,
+    host: envs.COUNTER_WEB_HOST || '127.0.0.1',
+    bases: [envs.COUNTER_BASE_HOST || '127.0.0.1:39999'],
     listen: [
       {pin: 'role:counter, cmd:add', model: 'consume'},
       {pin: 'role:counter, cmd:subtract', model: 'consume'},
