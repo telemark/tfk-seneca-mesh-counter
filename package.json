@@ -1,6 +1,6 @@
 {
   "name": "tfk-seneca-mesh-counter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Microservice for live counter",
   "license": "MIT",
   "private": true,
