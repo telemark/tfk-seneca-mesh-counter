@@ -30,7 +30,7 @@
     "url": "git://github.com/telemark/tfk-seneca-mesh-counter"
   },
   "devDependencies": {
-    "coveralls": "2.11.16",
+    "coveralls": "2.13.3",
     "nsp": "2.6.2",
     "standard": "8.6.0",
     "tap": "10.0.2"
